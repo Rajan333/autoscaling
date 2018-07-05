@@ -1,0 +1,13 @@
+{
+  "ImageId": "ami-4237b338",
+  "KeyName": "devops",
+  "SecurityGroupIds": [ "sg-197bf96d" ],
+  "InstanceType": "t2.micro",
+  "SubnetId": "subnet-9d621091",
+  "Placement": {
+    "AvailabilityZone": "us-east-1f"
+  },
+  "IamInstanceProfile": {
+      "Arn": "arn:aws:iam::507894940747:user/RajanMiddha"
+  }
+}
